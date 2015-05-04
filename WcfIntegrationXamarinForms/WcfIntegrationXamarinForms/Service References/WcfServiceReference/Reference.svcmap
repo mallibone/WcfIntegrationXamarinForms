@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f10a8c3-a2ae-4227-a0e3-b53052a70376" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://xamarinwcfservice.azurewebsites.net/WcfService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfService.xsd" MetadataType="Schema" ID="d6a80573-a994-410c-ac44-b891e77a39c2" SourceId="1" SourceUrl="http://xamarinwcfservice.azurewebsites.net/WcfService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WcfService.disco" MetadataType="Disco" ID="40653907-3518-44e7-96bb-08d6b868fc47" SourceId="1" SourceUrl="http://xamarinwcfservice.azurewebsites.net/WcfService.svc?disco" />
+    <MetadataFile FileName="WcfService.wsdl" MetadataType="Wsdl" ID="9f1e322f-a7cc-45ab-b30e-4e22fd5d1f1c" SourceId="1" SourceUrl="http://xamarinwcfservice.azurewebsites.net/WcfService.svc?wsdl" />
+    <MetadataFile FileName="WcfService1.xsd" MetadataType="Schema" ID="32ba5474-9ebc-4013-bbd6-48733f00a053" SourceId="1" SourceUrl="http://xamarinwcfservice.azurewebsites.net/WcfService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
